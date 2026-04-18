@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (large datasets)
+data/*.csv
+data/*.parquet
+data/*.xlsx
+data/*.xls
+data/*.json
+data/*.feather
+
+# Model files (trained models)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pth
+models/*.pt
+models/*.onnx
+models/*.model
+models/*.pickle
+
+# Logs and logs directory
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# MLOps specific
+mlruns/
+.mlflow/
+outputs/
+experiments/
